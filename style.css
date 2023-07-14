@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+
+body {
+	background: linear-gradient(45deg, #2D0D2F 0%, #AA60E6 100%, #F8CEFF 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+#login-image h2{
+    color: #d7d4d4;
+	background-color: #eb4bde71;
+	padding-left: 16px;
+	font-family: 'Trebuchet MS',sans-serif;
+	font-weight: 800;
+	box-shadow: 0px 5px 13px 2px #0000004d;
+	width: 350px;
+	height: 20px;
+	border-radius: 1px;
+	margin-top: -6px;
+}
+
+#login-image img {
+	width: 350px;
+	height: 350px;
+	box-shadow: 0px 5px 13px 2px #0000004d;
+}
+
+#custom-signup{
+	color: #cdcccc;
+	text-decoration: none;
+	position: absolute;
+	top: -20px;
+	left: 670px;
+	transform: translate(-50%, 50%);
+	background-color: #901a99d0;
+	border-radius: 0px 0px 0px 60px;
+	padding: 5px;
+	padding-left: 12px;
+	width: 50px;
+	height: 50px;
+    font-size: 12px;
+	font-weight: 600;
+}
+
+#custom-signup::after,
+#custom-signup::before{
+    background-color: red;
+    color: red;
+}
+
+.card {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#card-pai {
+	list-style: none;
+	display: flex;
+}
+
+#title-login {
+    margin-top: 1px;
+	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 24px;
+	height: 50px;
+	color: #4e4c4ca3;
+}
+
+.custom-input{
+	background-color: #60239c09;
+	width: 280px;
+	height: 280px;
+	margin: 80px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 13px 2px #0000004d;
+	margin-top: 50px;
+}
+
+.custom-input p{
+	margin: 0 auto;
+	width: 181px;
+	font-weight: 560;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
+}
+
+#icon-login{
+    text-align: center;
+	margin-top: 9px;
+	height: 40px;
+	width: 40px;
+
+}
+
+.custom-input p a{
+    margin: 11px;
+}
+
+.custom-input a img{
+	margin: 6px;
+	box-shadow: 0px 5px 13px 2px #0000004d;
+	background-color: #aa60e690;
+	padding: 4px;
+	border-radius: 20px;
+}
+
+#login-input {
+    padding: 1px;
+	background-color: #ffffff;
+	display: flex;
+	text-align: center;
+	width: 350px;
+	height: 350px;
+	box-shadow: 0px 5px 13px 2px #0000004d;
+	border-radius: 0px 6px 5px 0px;
+}
+
+input[type="email"],
+input[type="password"]{
+	margin: 0 auto;
+	margin: 1px;
+	height: 25px;
+	width: 173px;
+	background-color: #0a09095f;
+	border-radius: 2px;
+	border: solid 1px #0a090917;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder{
+	color: #eee9e96d;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 1px;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder:hover{
+	background-color: #dbd1d1;
+}
+
+input[type="submit"]{
+	cursor: pointer;
+	color: #d6d3d378;
+	border: solid 1px #0a090917;
+	transition: 0.3s all;
+	font-weight: bold;
+	font-size: 12px;
+	width: 173px;
+	height: 25px;
+	background-color: #a729f6bc;
+}
+
+input[type="submit"]:hover{
+	background-color: #a729f6cf;
+}
